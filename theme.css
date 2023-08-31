@@ -16158,6 +16158,7 @@ body .app-container .mod-root .workspace-tab-header-container:hover {
 }
 body .app-container .mod-root .workspace-tab-header-container .workspace-tab-header {
   border-radius: 20px;
+  padding-top: 4px;
   margin: 1px 1px;
 }
 body .app-container .mod-root .workspace-tab-header-container .workspace-tab-header .workspace-tab-header-inner {
