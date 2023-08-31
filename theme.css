@@ -16088,10 +16088,19 @@ input.mobile-vault-chooser-field-input {
   width: 100%;
 }
 
+body {
+  border-top: 4px solid;
+  border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
+  border-image-slice: 1;
+  -webkit-border-top: 4px solid;
+  -webkit-border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
+  -webkit-border-image-slice: 1;
+}
 body .titlebar .mod-right {
   transition: all 0.3s linear;
   opacity: 0;
   background: var(--color-base-20) !important;
+  margin-top: 4px;
 }
 body .titlebar .mod-right:hover {
   opacity: 1;
