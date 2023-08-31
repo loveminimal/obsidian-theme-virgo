@@ -653,10 +653,12 @@ body {
     --color-pink-rgb: 250, 153, 205;
     --color-pink: #fa99cd;
     // --color-base-00: #1e1e1e;
-    --color-base-00: #262626; // -virgo- 修改基准背景色
+    --color-base-00: #333333; // -virgo- 修改基准背景色
     --color-base-05: #212121;
-    --color-base-10: #242424;
-    --color-base-20: #262626;
+    // --color-base-10: #242424;
+    --color-base-10: #24242433; // -virgo- 修改代码块背景色
+    // --color-base-20: #262626;
+    --color-base-20: #333333; // -virgo- 修改边栏背景色
     --color-base-25: #2a2a2a;
     --color-base-30: #363636;
     --color-base-35: #3f3f3f;
@@ -664,7 +666,8 @@ body {
     --color-base-50: #666666;
     --color-base-60: #999999;
     --color-base-70: #bababa;
-    --color-base-100: #dadada;
+    // --color-base-100: #dadada;
+    --color-base-100: #c7c5c5;// -virgo- 修改字体色
     --color-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
     --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
     --color-accent-1: hsl(
