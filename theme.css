@@ -662,7 +662,7 @@ body {
   --color-base-50: #666666;
   --color-base-60: #999999;
   --color-base-70: #bababa;
-  --color-base-100: #dadada;
+  --color-base-100: #c7c5c5bb;
   --color-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
   --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
   --color-accent-1: hsl(
