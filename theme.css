@@ -16153,7 +16153,7 @@ body .app-container .mod-left-split .workspace-tab-container .nav-buttons-contai
 body .app-container .mod-left-split .workspace-tab-container .nav-buttons-container:hover {
   opacity: 1;
 }
-body .app-container .mod-root .workspace-tab-header-container {
+body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container {
   transition: all 0.3s linear;
   opacity: 0;
   width: 666px;
@@ -16165,19 +16165,19 @@ body .app-container .mod-root .workspace-tab-header-container {
   left: 50%;
   transform: translateX(-50%);
 }
-body .app-container .mod-root .workspace-tab-header-container:hover {
+body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container:hover {
   opacity: 1;
 }
-body .app-container .mod-root .workspace-tab-header-container .workspace-tab-header {
+body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container .workspace-tab-header {
   border-radius: 20px;
   padding-top: 4px;
   margin: 1px 1px;
 }
-body .app-container .mod-root .workspace-tab-header-container .workspace-tab-header .workspace-tab-header-inner {
+body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container .workspace-tab-header .workspace-tab-header-inner {
   margin: 0 4px;
   background: transparent;
 }
-body .app-container .mod-root .workspace-tab-header-container .workspace-tab-header::before, body .app-container .mod-root .workspace-tab-header-container .workspace-tab-header::after {
+body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container .workspace-tab-header::before, body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container .workspace-tab-header::after {
   display: none;
 }
 body .app-container .mod-root .workspace-tab-container {
@@ -16195,6 +16195,7 @@ body .app-container .mod-root .workspace-tab-container .view-header .view-header
   position: absolute;
   left: 10px;
   top: 10px;
+  z-index: 99;
 }
 body .app-container .mod-root .workspace-tab-container .view-header .view-header-title-container {
   opacity: 0;

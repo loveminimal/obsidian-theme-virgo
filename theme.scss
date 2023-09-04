@@ -14145,7 +14145,8 @@ body {
         }
 
         .mod-root {
-            .workspace-tab-header-container {
+
+            .mod-top:not(.mod-stacked) .workspace-tab-header-container {
                 // background: #000;
                 // 顶部 Tab 栏样式
                 @include oh-my-opacity;
@@ -14190,6 +14191,7 @@ body {
                         position: absolute;
                         left: 10px;
                         top: 10px;
+                        z-index: 99;
                     }
                     .view-header-title-container {
                         opacity: 0;
