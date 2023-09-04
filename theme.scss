@@ -14206,6 +14206,20 @@ body {
                 .view-content {
                     // background: honeydew;
                     // border-radius: 20px 20px 0 0;
+                    .metadata-container {
+                        transition: all .2s linear;
+                        &.is-collapsed {
+                            height: 0;
+                            padding: 0;
+                        }
+                        
+                        .metadata-properties-heading {
+                            width: 100%;
+                            .metadata-properties-title {
+                                opacity: 0;
+                            }
+                        }
+                    }
                 }
 
                 /* Tables */
