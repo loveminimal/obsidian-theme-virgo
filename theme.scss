@@ -14074,7 +14074,7 @@ input.mobile-vault-chooser-field-input {
 // //////////////// CUSTOM VIRGO /////////////////////
 @mixin oh-my-opacity {
     transition: all 0.3s linear;
-    opacity: 1;
+    opacity: 0;
 
     &:hover {
         opacity: 1;
@@ -14163,7 +14163,7 @@ body {
                 .workspace-tab-header-container-inner {
                     padding: 0px 15px 5px;
                 }
-                
+
                 .workspace-tab-header {
                     border-radius: 20px;
                     padding-top: 4px;

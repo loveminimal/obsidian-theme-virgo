@@ -16101,7 +16101,7 @@ body {
 }
 body .titlebar .mod-right {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
   background: var(--color-base-20) !important;
   margin-top: 4px;
 }
@@ -16122,7 +16122,7 @@ body .app-container .mod-top .workspace-tab-header-container {
 }
 body .app-container .mod-left {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
   border-width: 0;
 }
 body .app-container .mod-left:hover {
@@ -16134,28 +16134,28 @@ body .app-container .mod-left::before {
 }
 body .app-container .mod-left-split {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
 }
 body .app-container .mod-left-split:hover {
   opacity: 1;
 }
 body .app-container .mod-left-split .workspace-tab-header-container {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
 }
 body .app-container .mod-left-split .workspace-tab-header-container:hover {
   opacity: 1;
 }
 body .app-container .mod-left-split .workspace-tab-container .nav-buttons-container {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
 }
 body .app-container .mod-left-split .workspace-tab-container .nav-buttons-container:hover {
   opacity: 1;
 }
 body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
   width: 666px;
   margin: 0 auto;
   padding: 0;
@@ -16189,7 +16189,7 @@ body .app-container .mod-root .workspace-tab-container {
 }
 body .app-container .mod-root .workspace-tab-container .view-header {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
 }
 body .app-container .mod-root .workspace-tab-container .view-header:hover {
   opacity: 1;
@@ -16226,14 +16226,14 @@ body .app-container .mod-root .workspace-tab-container .markdown-rendered table 
 }
 body .app-container .mod-right-split {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
 }
 body .app-container .mod-right-split:hover {
   opacity: 1;
 }
 body .app-container .mod-right-split .workspace-tab-header-container {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
 }
 body .app-container .mod-right-split .workspace-tab-header-container:hover {
   opacity: 1;
@@ -16243,14 +16243,14 @@ body .app-container .mod-right-split .workspace-tab-container {
 }
 body .app-container .mod-right {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
 }
 body .app-container .mod-right:hover {
   opacity: 1;
 }
 body .app-container .status-bar {
   transition: all 0.3s linear;
-  opacity: 1;
+  opacity: 0;
 }
 body .app-container .status-bar:hover {
   opacity: 1;
