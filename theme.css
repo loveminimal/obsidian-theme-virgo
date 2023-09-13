@@ -16226,6 +16226,10 @@ body .app-container .mod-root .workspace-tab-container .view-content .metadata-c
 }
 body .app-container .mod-root .workspace-tab-container .markdown-rendered table {
   width: 100%;
+  border-top: 3px solid rgba(204, 204, 204, 0.8);
+}
+body .app-container .mod-root .workspace-tab-container .markdown-rendered table tbody tr:nth-child(odd) {
+  background: rgba(170, 170, 204, 0.1333333333);
 }
 body .app-container .mod-right-split {
   transition: all 0.3s linear;
