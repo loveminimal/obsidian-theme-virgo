@@ -16171,6 +16171,9 @@ body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-c
 body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container .workspace-tab-header-container-inner {
   padding: 0px 15px 5px;
 }
+body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container .sidebar-toggle-button {
+  z-index: 99;
+}
 body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container .workspace-tab-header {
   border-radius: 20px;
   padding-top: 4px;
