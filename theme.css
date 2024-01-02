@@ -16224,11 +16224,14 @@ body .app-container .mod-root .workspace-tab-container .view-content .metadata-c
 body .app-container .mod-root .workspace-tab-container .view-content .metadata-container .metadata-properties-heading .metadata-properties-title {
   opacity: 0;
 }
-body .app-container .mod-root .workspace-tab-container .markdown-rendered table {
+body .app-container .mod-root .workspace-tab-container .markdown-rendered .table-wrapper {
+  width: 100%;
+}
+body .app-container .mod-root .workspace-tab-container .markdown-rendered .table-wrapper table {
   width: 100%;
   border-top: 3px solid rgba(204, 204, 204, 0.8);
 }
-body .app-container .mod-root .workspace-tab-container .markdown-rendered table tbody tr:nth-child(odd) {
+body .app-container .mod-root .workspace-tab-container .markdown-rendered .table-wrapper table tbody tr:nth-child(odd) {
   background: rgba(170, 170, 204, 0.1333333333);
 }
 body .app-container .mod-right-split {

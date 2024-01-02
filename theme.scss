@@ -14217,14 +14217,18 @@ body {
                 }
 
                 /* Tables */
-                .markdown-rendered table {
-                    width: 100%; // -virgo- 设置表格默认宽度为 100%
-
-                    border-top: 3px solid #cccc;
-                    tbody tr:nth-child(odd) {
-                        background: #aac2;
+                .markdown-rendered .table-wrapper {
+                    width: 100%;
+                    
+                    table {
+                        width: 100%; // -virgo- 设置表格默认宽度为 100%
+    
+                        border-top: 3px solid #cccc;
+                        tbody tr:nth-child(odd) {
+                            background: #aac2;
+                        }
                     }
-                }
+                } 
             }
         }
 
