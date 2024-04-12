@@ -1,4 +1,4 @@
-[📘 使用指南：一款简约的 Obsidian 主题](https://walkssi.com/%E4%B8%80%E6%AC%BE%E7%AE%80%E7%BA%A6%E7%9A%84-obsidian-%E4%B8%BB%E9%A2%98/)
+[📘 使用指南：一款简约的 Obsidian 主题](https://aituyaa.com/%E4%B8%80%E6%AC%BE%E7%AE%80%E7%BA%A6%E7%9A%84-obsidian-%E4%B8%BB%E9%A2%98/)
 
 A pure obsidian theme. like:
 
