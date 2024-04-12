@@ -14,15 +14,18 @@
     }
 }
 
+@import "./font.scss";
+
 :root {
-    --font-jk-base: 'LXGW WenKai GB Screen R';
-    --font-jk-text: 'LXGW WenKai GB Screen R';
-    --font-jk-mono: 'Code New Roman', 'LXGW WenKai Mono';
+    --font-jk-base: 'LXGW WenKai GB Screen R', jinkaiFont;
+    --font-jk-text: 'LXGW WenKai GB Screen R', jinkaiFont;
+    --font-jk-mono: 'Code New Roman', romanFont, 'LXGW WenKai Mono';
 
     // ... #7f6df2;
     --color-jk-purple: #896a9e;
     --color-jk-purple-33: #896a9e33;
 }
+
 
 body {
     // 字体相关 - 全局字体、编辑器字体、代码块字体
