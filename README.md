@@ -14,9 +14,9 @@ A pure obsidian theme. like:
 
 **使用**
 
-后续合并后，可以 Obsidian 的官方主题仓库直接搜索 `Virgo` 进行安装。
+已合并到官方主题仓库，可以 Obsidian 的官方主题仓库（`Settings / Appearance / Themes > Manage`）直接搜索 `Virgo` 进行安装。
 
-目前需要手动操作，如下：
+当然，你也可以手动操作，如下：
 
 ```
 # 进行你的 Obsidian 仓库根目录中的 .obsidian
