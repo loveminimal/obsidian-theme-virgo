@@ -215,6 +215,7 @@ body .app-container .mod-right:hover {
 body .app-container .status-bar {
   transition: all 0.3s linear;
   opacity: 0;
+  opacity: 0.3;
 }
 body .app-container .status-bar:hover {
   opacity: 1;

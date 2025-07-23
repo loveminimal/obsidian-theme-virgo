@@ -228,6 +228,7 @@ body {
 
         .status-bar {
             @include oh-my-opacity;
+            opacity: 0.3;
         }
     }
 }
