@@ -188,6 +188,12 @@ body .app-container .mod-root .workspace-tab-container .view-content .metadata-c
 body .app-container .mod-root .workspace-tab-container .view-content .metadata-container .metadata-properties-heading .metadata-properties-title {
   opacity: 0;
 }
+body .app-container .mod-root .workspace-tab-container .view-content table {
+  width: 100%;
+}
+body .app-container .mod-root .workspace-tab-container .view-content table tbody tr:nth-child(odd) {
+  background: rgba(170, 170, 204, 0.1333333333);
+}
 body .app-container .mod-right-split {
   transition: all 0.3s linear;
   opacity: 0;
