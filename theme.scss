@@ -234,8 +234,24 @@ body {
         }
 
         .status-bar {
-            @include oh-my-opacity;
-            opacity: 0.3;
+            // @include oh-my-opacity;
+            // opacity: 1;
+            
+            .plugin-backlink,
+            .plugin-properties {
+                opacity: 0;
+
+                &:hover {
+                    @include oh-my-opacity;
+                }
+            }
+            .plugin-editor-status,
+            .plugin-word-count {
+                opacity: 0.3;
+                &:hover {
+                    @include oh-my-opacity;
+                }
+            }
         }
     }
 }

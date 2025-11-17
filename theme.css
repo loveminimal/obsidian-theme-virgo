@@ -218,12 +218,30 @@ body .app-container .mod-right {
 body .app-container .mod-right:hover {
   opacity: 1;
 }
-body .app-container .status-bar {
+body .app-container .status-bar .plugin-backlink,
+body .app-container .status-bar .plugin-properties {
+  opacity: 0;
+}
+body .app-container .status-bar .plugin-backlink:hover,
+body .app-container .status-bar .plugin-properties:hover {
   transition: all 0.3s linear;
   opacity: 0;
+}
+body .app-container .status-bar .plugin-backlink:hover:hover,
+body .app-container .status-bar .plugin-properties:hover:hover {
+  opacity: 1;
+}
+body .app-container .status-bar .plugin-editor-status,
+body .app-container .status-bar .plugin-word-count {
   opacity: 0.3;
 }
-body .app-container .status-bar:hover {
+body .app-container .status-bar .plugin-editor-status:hover,
+body .app-container .status-bar .plugin-word-count:hover {
+  transition: all 0.3s linear;
+  opacity: 0;
+}
+body .app-container .status-bar .plugin-editor-status:hover:hover,
+body .app-container .status-bar .plugin-word-count:hover:hover {
   opacity: 1;
 }
 
