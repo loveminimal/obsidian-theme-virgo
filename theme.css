@@ -37,6 +37,9 @@ body::before {
   border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
   border-image-slice: 1;
 }
+body a {
+  text-decoration: none !important;
+}
 body img {
   border-radius: 4px;
 }

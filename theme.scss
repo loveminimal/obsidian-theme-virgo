@@ -45,6 +45,10 @@ body {
         @include oh-my-bar;
     }
 
+    a {
+        text-decoration: none !important;
+    }
+
     img {
         border-radius: 4px;
     }
