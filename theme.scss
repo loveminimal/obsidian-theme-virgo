@@ -96,6 +96,7 @@ body {
     }
 
     .app-container {
+        .mod-primary,
         .mod-left {
             @include oh-my-opacity;
         }

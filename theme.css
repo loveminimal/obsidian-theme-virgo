@@ -14,9 +14,9 @@
   font-display: swap;
 }
 :root {
-  --font-jk-base: "LXGW WenKai GB Screen R", jinkaiFont;
-  --font-jk-text: "LXGW WenKai GB Screen R", jinkaiFont;
-  --font-jk-mono: "Code New Roman", romanFont, "LXGW WenKai Mono";
+  --font-jk-base: 'LXGW WenKai GB Screen R', jinkaiFont;
+  --font-jk-text: 'LXGW WenKai GB Screen R', jinkaiFont;
+  --font-jk-mono: 'Code New Roman', romanFont, 'LXGW WenKai Mono';
   --color-jk-purple: #896a9e;
   --color-jk-purple-33: #896a9e33;
 }
@@ -80,10 +80,12 @@ body .titlebar .mod-right {
 body .titlebar .mod-right:hover {
   opacity: 1;
 }
+body .app-container .mod-primary,
 body .app-container .mod-left {
   transition: all 0.3s linear;
   opacity: 0;
 }
+body .app-container .mod-primary:hover,
 body .app-container .mod-left:hover {
   opacity: 1;
 }
@@ -111,6 +113,11 @@ body .app-container .mod-left-split .workspace-tab-container .nav-buttons-contai
 body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container {
   transition: all 0.3s linear;
   opacity: 0;
+}
+body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container:hover {
+  opacity: 1;
+}
+body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container {
   width: 666px;
   margin: 0 auto;
   padding: 0;
@@ -119,16 +126,15 @@ body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-c
   z-index: 99;
   left: 50%;
   transform: translateX(-50%);
-  border-width: 0;
-}
-body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container:hover {
-  opacity: 1;
 }
 body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container .workspace-tab-header-container-inner {
   padding: 0px 15px 5px;
 }
 body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container .sidebar-toggle-button {
   z-index: 99;
+}
+body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container {
+  border-width: 0;
 }
 body .app-container .mod-root .mod-top:not(.mod-stacked) .workspace-tab-header-container ::after {
   display: none;
